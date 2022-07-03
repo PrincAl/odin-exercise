@@ -95,10 +95,8 @@ button{
   justify-content:center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 0;
-  margin:0;
-  flex-wrap: wrap;
   background-color: #1F2937;
+  flex-wrap: wrap;
 
 }
 
@@ -229,7 +227,6 @@ ol{
 }
 .action{
   width: 60%;
-  height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -302,6 +299,5 @@ ol{
     display: flex;
     width: 60%;
     height: 100%;
-    flex-wrap: wrap;
     box-sizing: border-box;
 }
