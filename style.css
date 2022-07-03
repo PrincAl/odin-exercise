@@ -1,0 +1,287 @@
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0px;
+  height: 100vh;
+  flex: 1;
+}
+
+button{
+  background-color: #3882F6;
+  border-radius: 6px;
+  border-color: #3882F6;
+  color: white;
+}
+.header{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  width: 100%;
+  height: 10%;
+  box-sizing: border-box;
+  color: #E5E7EB;
+
+}
+
+.signup{
+  background-color: #1F2937;
+  display: flex;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 15px 160px;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  width: 100%;
+  height: 80%;
+
+  
+  
+}
+
+.signuptext{
+  font-size: 32px;
+  color: #f9faf8;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#Logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.infohead{
+  color: #1F2937;
+}
+
+.quotes{
+  background-color: #E5E7EB;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.subtext{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+}
+
+.signupcontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin:0;
+  flex-wrap: wrap;
+  background-color: #1F2937;
+
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1
+
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  padding: 8px;
+
+}
+
+li{
+  text-decoration: none;
+}
+
+.button{
+  display: flex;
+  font-size: 14px;
+}
+
+.boxes{
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  gap: 16px;
+  width: 60%;
+}
+
+.box{
+  border:1px solid black;
+  width: 25px;
+  height: 25px;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.infosubtext{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+
+.imgspace,
+.signupcontent{
+  width: 50%;
+  flex-shrink: 1;
+  background-color: #1F2937;
+}
+
+.imgspace{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture{
+  width: 60%;
+  border: #E5E7EB solid 3px;
+  height: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+ol{
+  padding: 0;
+  margin: 0;
+}
+
+.buttonplace{
+  width: 60%;
+  display: flex;
+  margin-top: 3px;
+}
+
+.quotes,
+.information,
+.newsletter,
+.signup{
+  height: 25%;
+  flex-basis: 25%;
+}
+
+.footer{
+  height: 10%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
+.action{
+  width: 60%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-sizing: border-box;
+  background-color: #3882F6;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.newsletter{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.actions{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.buttoncontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex:1
+}
+
+.actionbig{
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -10px;
+}
+
+.Thor{
+  font-weight: 900;
+  display: flex;
+  width: 60%;
+  align-self:center ;
+  justify-content: end;
+
+}
+
+.quote{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+}
